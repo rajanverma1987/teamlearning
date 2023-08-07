@@ -1,0 +1,26 @@
+.header {
+	display: flex;
+	background: rgb(220, 134, 0);
+	background: linear-gradient(90deg, rgba(220, 134, 0, 1) 0%, rgba(255, 255, 255, 0.6824229691876751) 53%, rgba(0, 168, 9, 1) 100%);
+	padding-block: 1rem;
+	justify-content: space-between;
+	align-items: center;
+	padding-inline: 1rem;
+}
+.header img {
+	margin: 0;
+	padding: 0;
+}
+.header ul {
+	display: flex;
+	list-style: none;
+}
+.header ul li {
+	margin-inline: 0.3rem;
+	padding: 0.6rem;
+	border-radius: 5px;
+	background-color: rgb(8, 94, 123);
+	min-width: 5rem;
+	text-align: center;
+	cursor: pointer;
+}
